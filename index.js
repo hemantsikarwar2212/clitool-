@@ -1,7 +1,7 @@
 const {Command} = require('commander');
 const fs = require('fs');
 const date = new Date();
-const axios = require('axios');
+// const axios = require('axios');
 require('dotenv').config();
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const program = new Command();
